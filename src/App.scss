@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.App {
+  width: 100%;
+}
+.image {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.footer {
+  width: 100%;
+  
+}
+.MainPage {
+  padding: 0;
+}
+.mainimgbg {
+  position: relative;
+  background-color: aquamarine;
+  height: 100vh;
+  width: 100%;
+  .name {
+    padding: 25% 55px 0px 55px;
+  }
+  .photo {
+    position: absolute;
+    bottom: 0px;
+    left: 38.75%;
+    max-width: 428px;
+    max-height: 1269px;
+    width: 22.3%;
+  }
+  .description {
+  color: #d0b5b5;
+  font-family: "Bebas Neue";
+  font-size: 237px;
+  font-weight: 400;
+  position: absolute;
+  left: 75px;
+  bottom: 50px
+  }
+}
+
+@media (min-width: 1200px) {
+  .mainimgbg {
+    height: 75vw;
+  }
+}
+
+@media (min-width: 1600px) {
+  .description {
+    font-size: 100px;
+  }
+}
