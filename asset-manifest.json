@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/site2/static/css/main.85de388c.chunk.css",
-    "main.js": "/site2/static/js/main.6f864258.chunk.js",
-    "main.js.map": "/site2/static/js/main.6f864258.chunk.js.map",
+    "main.css": "/site2/static/css/main.b2e6dbc0.chunk.css",
+    "main.js": "/site2/static/js/main.7560c71c.chunk.js",
+    "main.js.map": "/site2/static/js/main.7560c71c.chunk.js.map",
     "runtime-main.js": "/site2/static/js/runtime-main.53c5d823.js",
     "runtime-main.js.map": "/site2/static/js/runtime-main.53c5d823.js.map",
     "static/css/2.4707e12a.chunk.css": "/site2/static/css/2.4707e12a.chunk.css",
-    "static/js/2.829a810b.chunk.js": "/site2/static/js/2.829a810b.chunk.js",
-    "static/js/2.829a810b.chunk.js.map": "/site2/static/js/2.829a810b.chunk.js.map",
+    "static/js/2.dc6c6001.chunk.js": "/site2/static/js/2.dc6c6001.chunk.js",
+    "static/js/2.dc6c6001.chunk.js.map": "/site2/static/js/2.dc6c6001.chunk.js.map",
     "index.html": "/site2/index.html",
-    "precache-manifest.d00b7079be88c5e6a4f14f7e5205acc2.js": "/site2/precache-manifest.d00b7079be88c5e6a4f14f7e5205acc2.js",
+    "precache-manifest.c63079823b316f3b666f5d552836ccae.js": "/site2/precache-manifest.c63079823b316f3b666f5d552836ccae.js",
     "service-worker.js": "/site2/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/site2/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.85de388c.chunk.css.map": "/site2/static/css/main.85de388c.chunk.css.map",
-    "static/js/2.829a810b.chunk.js.LICENSE.txt": "/site2/static/js/2.829a810b.chunk.js.LICENSE.txt",
+    "static/css/main.b2e6dbc0.chunk.css.map": "/site2/static/css/main.b2e6dbc0.chunk.css.map",
+    "static/js/2.dc6c6001.chunk.js.LICENSE.txt": "/site2/static/js/2.dc6c6001.chunk.js.LICENSE.txt",
     "static/media/aboutme.jpg": "/site2/static/media/aboutme.eabffffd.jpg",
+    "static/media/arrowUp.svg": "/site2/static/media/arrowUp.0ae892e4.svg",
     "static/media/Aboutme.scss": "/site2/static/media/background.13c02eb4.png",
     "static/media/burgermenu.svg": "/site2/static/media/burgermenu.2b2452db.svg",
     "static/media/name.svg": "/site2/static/media/name.aea24c33.svg",
@@ -24,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.53c5d823.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.829a810b.chunk.js",
-    "static/css/main.85de388c.chunk.css",
-    "static/js/main.6f864258.chunk.js"
+    "static/js/2.dc6c6001.chunk.js",
+    "static/css/main.b2e6dbc0.chunk.css",
+    "static/js/main.7560c71c.chunk.js"
   ]
 }
