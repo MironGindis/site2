@@ -1,32 +1,33 @@
 {
   "files": {
-    "main.css": "/site2/static/css/main.8c3348e0.chunk.css",
-    "main.js": "/site2/static/js/main.7560c71c.chunk.js",
-    "main.js.map": "/site2/static/js/main.7560c71c.chunk.js.map",
+    "main.css": "/site2/static/css/main.be107a99.chunk.css",
+    "main.js": "/site2/static/js/main.0886ec92.chunk.js",
+    "main.js.map": "/site2/static/js/main.0886ec92.chunk.js.map",
     "runtime-main.js": "/site2/static/js/runtime-main.53c5d823.js",
     "runtime-main.js.map": "/site2/static/js/runtime-main.53c5d823.js.map",
     "static/css/2.4707e12a.chunk.css": "/site2/static/css/2.4707e12a.chunk.css",
-    "static/js/2.dc6c6001.chunk.js": "/site2/static/js/2.dc6c6001.chunk.js",
-    "static/js/2.dc6c6001.chunk.js.map": "/site2/static/js/2.dc6c6001.chunk.js.map",
+    "static/js/2.cf059204.chunk.js": "/site2/static/js/2.cf059204.chunk.js",
+    "static/js/2.cf059204.chunk.js.map": "/site2/static/js/2.cf059204.chunk.js.map",
     "index.html": "/site2/index.html",
-    "precache-manifest.41a75f1441c1a400a4fc7c2c2edb11b2.js": "/site2/precache-manifest.41a75f1441c1a400a4fc7c2c2edb11b2.js",
+    "precache-manifest.0c8ea98711889e349ded8a23ab322f5c.js": "/site2/precache-manifest.0c8ea98711889e349ded8a23ab322f5c.js",
     "service-worker.js": "/site2/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/site2/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.8c3348e0.chunk.css.map": "/site2/static/css/main.8c3348e0.chunk.css.map",
-    "static/js/2.dc6c6001.chunk.js.LICENSE.txt": "/site2/static/js/2.dc6c6001.chunk.js.LICENSE.txt",
+    "static/css/main.be107a99.chunk.css.map": "/site2/static/css/main.be107a99.chunk.css.map",
+    "static/js/2.cf059204.chunk.js.LICENSE.txt": "/site2/static/js/2.cf059204.chunk.js.LICENSE.txt",
     "static/media/aboutme.jpg": "/site2/static/media/aboutme.eabffffd.jpg",
     "static/media/arrowUp.svg": "/site2/static/media/arrowUp.0ae892e4.svg",
     "static/media/Aboutme.scss": "/site2/static/media/background.13c02eb4.png",
     "static/media/burgermenu.svg": "/site2/static/media/burgermenu.2b2452db.svg",
     "static/media/name.svg": "/site2/static/media/name.aea24c33.svg",
     "static/media/photo.webp": "/site2/static/media/photo.c35659db.webp",
-    "static/media/video.jpg": "/site2/static/media/video.2958b9f0.jpg"
+    "static/media/video.jpg": "/site2/static/media/video.2958b9f0.jpg",
+    "static/media/works.png": "/site2/static/media/works.26d4eca3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.53c5d823.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.dc6c6001.chunk.js",
-    "static/css/main.8c3348e0.chunk.css",
-    "static/js/main.7560c71c.chunk.js"
+    "static/js/2.cf059204.chunk.js",
+    "static/css/main.be107a99.chunk.css",
+    "static/js/main.0886ec92.chunk.js"
   ]
 }
