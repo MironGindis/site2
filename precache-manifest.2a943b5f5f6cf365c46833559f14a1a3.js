@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37aeaba1b18eb0deddf2e6a6f223a59a",
+    "revision": "75b9518261f5cbd4875aee602471f2e0",
     "url": "/site2/index.html"
   },
   {
-    "revision": "0a9bec93bb6ee18c0eb2",
+    "revision": "61f8b57f1feb8882234d",
     "url": "/site2/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "4b74bb97e70a80827a0b",
-    "url": "/site2/static/css/main.8151ff64.chunk.css"
+    "revision": "c4ffb7767d2cd9428248",
+    "url": "/site2/static/css/main.171071a1.chunk.css"
   },
   {
-    "revision": "0a9bec93bb6ee18c0eb2",
-    "url": "/site2/static/js/2.0d9571c7.chunk.js"
+    "revision": "61f8b57f1feb8882234d",
+    "url": "/site2/static/js/2.f34aa9d5.chunk.js"
   },
   {
     "revision": "8d190e2d02f8e768921a63f56a741895",
-    "url": "/site2/static/js/2.0d9571c7.chunk.js.LICENSE.txt"
+    "url": "/site2/static/js/2.f34aa9d5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4b74bb97e70a80827a0b",
-    "url": "/site2/static/js/main.b2762260.chunk.js"
+    "revision": "c4ffb7767d2cd9428248",
+    "url": "/site2/static/js/main.26f6df4c.chunk.js"
   },
   {
     "revision": "90853949b581c26ca119",
@@ -36,12 +36,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/site2/static/media/arrowUp.0ae892e4.svg"
   },
   {
-    "revision": "13c02eb48c8ae07ad261f7f7a9bf7d1c",
-    "url": "/site2/static/media/background.13c02eb4.png"
-  },
-  {
     "revision": "2b2452dbeea838e9bdbb1d216b7fa48f",
     "url": "/site2/static/media/burgermenu.2b2452db.svg"
+  },
+  {
+    "revision": "662d7a72ee68afed194b45064682f37a",
+    "url": "/site2/static/media/kirill_fon_obo_mne.662d7a72.png"
   },
   {
     "revision": "806a2b9edad6216e20a3be743ba73aae",
