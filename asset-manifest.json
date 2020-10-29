@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/site2/static/css/main.99c3ef43.chunk.css",
-    "main.js": "/site2/static/js/main.228a7532.chunk.js",
-    "main.js.map": "/site2/static/js/main.228a7532.chunk.js.map",
+    "main.css": "/site2/static/css/main.38a0bf66.chunk.css",
+    "main.js": "/site2/static/js/main.c2f529b1.chunk.js",
+    "main.js.map": "/site2/static/js/main.c2f529b1.chunk.js.map",
     "runtime-main.js": "/site2/static/js/runtime-main.53c5d823.js",
     "runtime-main.js.map": "/site2/static/js/runtime-main.53c5d823.js.map",
     "static/css/2.4707e12a.chunk.css": "/site2/static/css/2.4707e12a.chunk.css",
-    "static/js/2.29f8bbfc.chunk.js": "/site2/static/js/2.29f8bbfc.chunk.js",
-    "static/js/2.29f8bbfc.chunk.js.map": "/site2/static/js/2.29f8bbfc.chunk.js.map",
+    "static/js/2.8452d6ec.chunk.js": "/site2/static/js/2.8452d6ec.chunk.js",
+    "static/js/2.8452d6ec.chunk.js.map": "/site2/static/js/2.8452d6ec.chunk.js.map",
     "index.html": "/site2/index.html",
-    "precache-manifest.c0567e3c2ad288049d2079bd5507e456.js": "/site2/precache-manifest.c0567e3c2ad288049d2079bd5507e456.js",
+    "precache-manifest.5047771a967f3c91fde398fc5d85ddab.js": "/site2/precache-manifest.5047771a967f3c91fde398fc5d85ddab.js",
     "service-worker.js": "/site2/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/site2/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.99c3ef43.chunk.css.map": "/site2/static/css/main.99c3ef43.chunk.css.map",
-    "static/js/2.29f8bbfc.chunk.js.LICENSE.txt": "/site2/static/js/2.29f8bbfc.chunk.js.LICENSE.txt",
-    "static/media/aboutme_photo.png": "/site2/static/media/aboutme_photo.d14696e5.png",
+    "static/css/main.38a0bf66.chunk.css.map": "/site2/static/css/main.38a0bf66.chunk.css.map",
+    "static/js/2.8452d6ec.chunk.js.LICENSE.txt": "/site2/static/js/2.8452d6ec.chunk.js.LICENSE.txt",
     "static/media/arrowUp.svg": "/site2/static/media/arrowUp.0ae892e4.svg",
     "static/media/burgermenu.svg": "/site2/static/media/burgermenu.2b2452db.svg",
     "static/media/instIcon.svg": "/site2/static/media/instIcon.45049447.svg",
@@ -27,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.53c5d823.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.29f8bbfc.chunk.js",
-    "static/css/main.99c3ef43.chunk.css",
-    "static/js/main.228a7532.chunk.js"
+    "static/js/2.8452d6ec.chunk.js",
+    "static/css/main.38a0bf66.chunk.css",
+    "static/js/main.c2f529b1.chunk.js"
   ]
 }
