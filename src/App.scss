@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
 .App {
   width: 100%;
+  position: relative;
 }
 .image {
   img {
@@ -9,48 +11,265 @@
     height: 100%;
   }
 }
-.footer {
-  width: 100%;
-  
+
+.menu {
+  position: absolute;
+  width: 5.625%;
+  top: 56px;
+  right: 3.59375%;
+  z-index: 9999;
 }
+
+.menu-block {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 156px;
+  width: 100%;
+  z-index: 9000;
+  &-1{
+    background-color: #d0b5b5;
+  }
+  &-2 {
+    background-color: #cb7e9a;
+  }
+}
+
+.menu-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-family: 'Comfortaa', cursive;
+  a {
+    
+    text-decoration: none;
+    font-size: 45px;
+    display: block;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+  }
+  .link-1 {
+    color: #143b39;
+    &:visited {
+      color: #143b39;
+    }
+  }
+  .link-2 {
+    color: #143b39;
+    &:visited {
+      color: #143b39;
+    }
+  }
+  .link-1.active {
+    background-color:  #143b39;
+    color:#d0b5b5;
+  }
+  .link-2.active {
+    background-color: #143b39;
+    color:  #ca809b;
+  }
+}
+
+.Links {
+  display: flex;
+  width: 50%;
+  padding-left: 25%;
+  a{
+    display: block;
+    padding: 2px 17px;
+    img {
+      width: 100%;
+      height: 100%;
+    } 
+  }
+}
+
 .MainPage {
+  display: flex;
+  flex-direction: column;
   padding: 0;
+  overflow: hidden;
 }
 .mainimgbg {
+  height: 1400px;
+  overflow: hidden;
   position: relative;
-  background-color: aquamarine;
-  height: 100vh;
+  background: rgb(40,78,80);
+background: radial-gradient(circle, rgba(40,78,80,1) 6%, rgba(23,63,65,1) 47%, rgba(20,54,56,1) 78%);
   width: 100%;
   .name {
-    padding: 25% 55px 0px 55px;
+    padding-left: 55px;
+    padding-right: 55px;
   }
   .photo {
     position: absolute;
-    bottom: 0px;
+    bottom: -5px;
     left: 38.75%;
     max-width: 428px;
     max-height: 1269px;
     width: 22.3%;
   }
-  .description {
+}
+.description {
   color: #d0b5b5;
   font-family: "Bebas Neue";
-  font-size: 237px;
+  font-size: 180px;
   font-weight: 400;
   position: absolute;
-  left: 75px;
   bottom: 50px
   }
-}
-
-@media (min-width: 1200px) {
-  .mainimgbg {
-    height: 75vw;
-  }
-}
-
 @media (min-width: 1600px) {
   .description {
-    font-size: 100px;
+    font-size: 237px;
   }
+}
+
+
+
+@media (max-width: 1400px) {
+  .mainimgbg {
+    height: 1150px;
+    position: relative;
+    background-color: aquamarine;
+    width: 100%;
+    .name {
+      padding-left: 55px;
+      padding-right: 55px;
+    }
+  .description {
+    font-size: 200px;
+  }
+}
+
+}
+@media (max-width: 1200px) {
+  .menu {
+  position: absolute;
+  width: 5.625%;
+  top: 30px;
+  right: 3.59375%;
+  z-index: 9999;
+}
+
+.menu-block {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100px;
+  width: 100%;
+  z-index: 9000;
+}
+  .mainimgbg {
+    height: 1000px;
+    position: relative;
+    background-color: aquamarine;
+    width: 100%;
+    .name {
+      padding-left: 55px;
+      padding-right: 55px;
+    }
+  .description {
+    font-size: 150px;
+  }
+}
+@media (max-width: 1100px) {
+  .menu-wrapper {
+    a {
+      font-size: 35px;
+    }
+  }
+  
+}
+}
+@media (max-width: 1000px) {
+  .mainimgbg {
+    height: 900px;
+    position: relative;
+    background-color: aquamarine;
+    width: 100%;
+    .name {
+      padding-left: 55px;
+      padding-right: 55px;
+    }
+  .description {
+    font-size: 110px;
+  }
+}
+}
+
+@media (max-width: 940px) {
+  .menu-block {
+    height: 320px;
+  }
+  .menu-wrapper {
+    padding-top: 40px;
+    width: 100%;
+    display: block;
+    a {
+      text-decoration: none;
+      font-size: 25px;
+      display: block;
+      height: 18%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &:visited {
+        color: white;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .mainimgbg {
+    height: 700px;
+    position: relative;
+    background-color: aquamarine;
+    width: 100%;
+    .name {
+      padding-left: 55px;
+      padding-right: 55px;
+    }
+  .description {
+    font-size: 110px;
+  }
+}
+
+}
+
+@media (max-width: 600px) {
+  .menu {
+    top: 10px;
+  }
+
+  .mainimgbg {
+    height: 660px;
+    position: relative;
+    background-color: aquamarine;
+    width: 100%;
+    .name {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .photo {
+      position: absolute;
+      bottom: 0px;
+      bottom: -5px;
+      left: 27%;
+      width: 428px;
+      max-height: 1269px;
+      width: 46%;
+    }
+  .description {
+    font-size: 60px;
+  }
+}
 }
