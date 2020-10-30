@@ -2,31 +2,31 @@
     position: relative;
     background-color: black;
     width: 100%;
-    height: 3050px;
+    height: 4050px;
     &_Arrow {
         position: absolute;
         width: 140px;
         padding: 48px 28px ;
         background-color: #d0b5b5;
-        top: 2767px;
+        top: 3767px;
         left: 71.875%;
         &:before {
             position: absolute;
-            top: -830px;
+            top: -1227px;
             left: 0px;
             content: '';
             display: block;
-            height: 830px;
+            height: 1227px;
             width: 2px;
             background: white;
         }
         &:after {
             position: absolute;
-            top: -1398px;
+            top: -1680px;
             right: 0px;
             content: '';
             display: block;
-            height: 1398px;
+            height: 1680px;
             width: 2px;
             background: white;
         }
@@ -47,12 +47,20 @@
         font-size: 63px;
         width: 100%;
     }
+    &_bg{
+        background-color: #d3d3d3;
+        opacity: 0.5;
+        position: relative;
+    }
     &_description {
         padding: 10px;
         text-align: center;
-        background-color: #d3d3d3;
         color: #d0b5b5;
         font-size: 45px;
+        &-true {
+            position: absolute;
+            bottom: 0;
+        }
     }
 
     &-1{
@@ -109,25 +117,25 @@
 
     &-3{
         width: 35.5%;
-        top: 1051px;
+        top: 1251px;
         left: 22.7%;
         &:before {
             position: absolute;
-            top: -714px;
+            top: -914px;
             left: 0px;
             content: '';
             display: block;
-            height: 714px;
+            height: 914px;
             width: 2px;
             background: white;
         }
         &:after {
             position: absolute;
-            top: -454px;
+            top: -654px;
             right: 0px;
             content: '';
             display: block;
-            height: 454px;
+            height: 654px;
             width: 2px;
             background: white;
         }
@@ -135,100 +143,100 @@
 
     &-4{
         width: 33.33%;
-        top: 1460px;
+        top: 1860px;
         left: 7.09%;
         &:before {
             position: absolute;
-            top: -1123px;
+            top: -1523px;
             left: 0px;
             content: '';
             display: block;
-            height: 1123px;
+            height: 1523px;
             width: 2px;
             background: white;
         }
         &:after {
             position: absolute;
-            top: -409px;
+            top: -609px;
             right: 0px;
             content: '';
             display: block;
-            height: 409px;
+            height: 609px;
             width: 2px;
             background: white;
         }
     }
     &-5{
         width: 35.5%;
-        top: 1369px;
+        top: 2069px;
         left: 54.53%;
         &:before {
             position: absolute;
-            top: -318px;
+            top: -810px;
             left: 0px;
             content: '';
             display: block;
-            height: 318px;
+            height: 810px;
             width: 2px;
             background: white;
         }
         &:after {
             position: absolute;
-            top: -1369px;
+            top: -2069px;
             right: 0px;
             content: '';
             display: block;
-            height: 1369px;
+            height: 2069px;
             width: 2px;
             background: white;
         }
     }
     &-6{
         width: 44.22%;
-        top: 1937px;
+        top: 2537px;
         left: 30.1%;
         &:before {
             position: absolute;
-            top: -477px;
+            top: -677px;
             left: 0px;
             content: '';
             display: block;
-            height: 477px;
+            height: 677px;
             width: 2px;
             background: white;
         }
         &:after {
             position: absolute;
-            top: -568px;
+            top: -1928px;
             right: 0px;
             content: '';
             display: block;
-            height: 568px;
+            height: 1928px;
             width: 2px;
             background: white;
         }
     }
     &-7{
         width: 43.2%;
-        top: 2389px;
+        top: 3209px;
         left: 11.4%;
         &:before {
             position: absolute;
-            top: -929px;
+            top: -1329px;
             left: 0px;
             content: '';
             display: block;
-            height: 929px;
+            height: 1329px;
             width: 2px;
             background: white;
         }
         &:after {
             position: absolute;
-            top: -452px;
+            top: -662px;
             right: 0px;
             content: '';
             display: block;
-            height: 452px;
+            height: 662px;
             width: 2px;
             background: white;
         }
@@ -278,16 +286,7 @@
         &_Arrow {
             width: 120px;
             padding: 38px 20px ;
-            &:before {
-                top: -830px;
-                left: 0px;
-                height: 830px;
-            }
-            &:after {
-                top: -1398px;
-                right: 0px;
-                height: 1398px;
-            }
+
         }
     }
 }
@@ -573,6 +572,11 @@
         }
         &_description {
             font-size: 13px;
+        }
+        &-2{
+            width: 35%;
+            left: 54%;
+
         }
     }
     .Cases {

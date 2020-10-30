@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 
 function Case(props) {
 
- let [CaseIsActive, setCaseIsActive]  = useState(false);
+ let [CaseIsActive, setCaseIsActive]  = useState(true);
 
 
   return (
@@ -12,9 +12,17 @@ function Case(props) {
         <div className="Case_main">
             {props.header}
         </div>
-        {CaseIsActive && <div className="Case_description">
+        {CaseIsActive && <>
+        <div className="Case_bg">
+          <div className="Case_description">
             {props.description}
-        </div>}
+        </div>
+        </div>
+        <div className="Case_description-true Case_description">
+        {props.description}
+    </div>
+    </>
+        }
     </div>
   );
 }

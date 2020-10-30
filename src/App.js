@@ -51,8 +51,6 @@ function App() {
               {(windowWidth<=940)? 
               <div className="Links">
               <a href='https://www.instagram.com/kirill.who/'><img src={instagramIcon}/></a>
-              <a href='https://www.instagram.com/kirill.who/'><img src={instagramIcon}/></a>
-              <a href='https://www.instagram.com/kirill.who/' ><img src={instagramIcon}/></a>
               </div>
                : null}
           </div>

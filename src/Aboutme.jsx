@@ -10,23 +10,50 @@ function Aboutme(props) {
 
   const windowWidth = window.innerWidth;
 
-  let [BgPosX, setBgPosX] =useState(58);
-
+  let [BgPosX, setBgPosX] =useState(-550);
   let [magrinLeft, setMarginLeft] = useState(-400);
-  let isMobile = windowWidth<=600;
-
+  let [defaultBgPosX, setdefaultBgPosX] = useState (-550);
+  let [defaultmagrinLeft, setdefaultmagrinLeft] = useState (-400);
+  let isMobile = false;
   
-  let onSwipeMove = (position) =>{
-    console.log(position.x);  
-    if ((position.x>=-400)&&(position.x<=100)){
-    setBgPosX(58+position.x/10);
-    setMarginLeft(-400-position.x);
+  let onSwipeMove = (position) => {
+    console.log(position.x);
+    if (defaultBgPosX == -550){
+      if ((position.x>=0)&&(position.x<=202)){
+        setBgPosX(defaultBgPosX+position.x*2);
+        setMarginLeft(defaultmagrinLeft+position.x*2);
+      }
+     } else {
+        if ((position.x<=0)&&(position.x>=-202)){
+        setBgPosX(defaultBgPosX+position.x*2);
+        setMarginLeft(defaultmagrinLeft+position.x*2);
+        }
+      }
+    
     }
+  let onSwipeEnd = () => {
+    if (magrinLeft>=-200) {
+      setBgPosX(-550+202*2);
+      setMarginLeft(-400+202*2);
+      setdefaultBgPosX(-550+202*2);
+      setdefaultmagrinLeft(-400+202*2);
+    } else {
+      setBgPosX(-550);
+      setMarginLeft(-400);
+      setdefaultBgPosX(-550);
+      setdefaultmagrinLeft(-400);
+    }
+    console.log(`1 = ${BgPosX}`);
+    console.log(`2 = ${magrinLeft}`);
+    console.log(`1d = ${defaultBgPosX}`);
+    console.log(`2d = ${defaultmagrinLeft}`);
   }
   return (
-    <Swipe onSwipeMove={onSwipeMove}>
+    <Swipe onSwipeMove={onSwipeMove}
+          onSwipeEnd={onSwipeEnd}
+            onSwipeStart={()=>{}}>
     <div className="Aboutme">
-        <div className='Aboutme_content' style={(isMobile)? {backgroundPosition: `${BgPosX}% 0px`} : null} >
+        <div className='Aboutme_content' style={(isMobile)? {backgroundPosition: `${BgPosX}px 0px`} : null} >
             <div className="Aboutme_text" style={(isMobile)? {marginLeft: `${magrinLeft}px`} : null} >
             «<span>У</span>мение хорошо одеваться не зависит от большого количества одежды. <span>Э</span>то вопрос гармонии и здравого смысла». 
             <br/> <br/> <span>Э</span>менно эти слова <span>O</span>scar de la <span>R</span>enta полностью характеризую мою работу. 

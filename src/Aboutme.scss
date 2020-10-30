@@ -154,7 +154,6 @@
 }
 @media (max-width: 730px) {
     .Aboutme {
-
         &_content {
             background-position: -500px 0px;
         }
@@ -175,7 +174,7 @@
 }
 @media (max-width: 660px) {
     .Aboutme {
-        height: 100vh;
+        height: 850px;
         &_content {
             background-position: -430px 0px;
         }
@@ -185,11 +184,74 @@
             }
             line-height: 20px;
             text-transform: uppercase;
-            padding: 70px  0px 0px 5%;
+            padding:110px  0px 0px 5%;
             flex: 0 0 330px;
             color: #ffffff;
             font-family: 'Comfortaa', cursive;
             font-size: 11px;
+            font-weight: 400;
+        }
+  }
+}
+@media (max-width: 530px) {
+    .Aboutme {
+        height: 850px;
+        &_content {
+            background-position: -460px 0px;
+        }
+        &_text {
+            span {
+                font-size: 14px;
+            }
+            line-height: 20px;
+            text-transform: uppercase;
+            padding:110px  0px 0px 5%;
+            flex: 0 0 300px;
+            color: #ffffff;
+            font-family: 'Comfortaa', cursive;
+            font-size: 10px;
+            font-weight: 400;
+        }
+  }
+}
+@media (max-width: 500px) {
+    .Aboutme {
+        height: 850px;
+        &_content {
+            background-position: -530px 0px;
+        }
+        &_text {
+            span {
+                font-size: 14px;
+            }
+            line-height: 20px;
+            text-transform: uppercase;
+            padding:70px  0px 0px 5%;
+            flex: 0 0 240px;
+            color: #ffffff;
+            font-family: 'Comfortaa', cursive;
+            font-size: 10px;
+            font-weight: 400;
+        }
+  }
+}
+@media (max-width: 435px) {
+    .Aboutme {
+        height: 850px;
+        &_content {
+            background-position: -570px 0px;
+        }
+        &_text {
+            span {
+                font-size: 12px;
+            }
+            line-height: 14px;
+            text-transform: uppercase;
+            padding:110px  0px 0px 2%;
+            flex: 0 0 190px;
+            color: #ffffff;
+            font-family: 'Comfortaa', cursive;
+            font-size: 9px;
             font-weight: 400;
         }
   }
